@@ -1,14 +1,3 @@
-# Build param
-npm run build param
-# ex: npm run build prod
-# ex: npm run build staging
-
-# Launch Dev mode
-npm run dev
-
-
-# gitops
-
 > A Vue.js project
 
 ## Build Setup
@@ -21,6 +10,11 @@ npm install
 npm run dev
 
 # build for production with minification
+npm run build staging
+
+# build for production with minification
+npm run build prod
+# or just (prod is used by default)
 npm run build
 
 # build for production and view the bundle analyzer report
