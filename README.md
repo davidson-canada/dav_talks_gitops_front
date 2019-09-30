@@ -13,7 +13,7 @@ npm run dev
 npm run build staging
 
 # build for production with minification
-npm run build prod
+npm run build production
 # or just (prod is used by default)
 npm run build
 
