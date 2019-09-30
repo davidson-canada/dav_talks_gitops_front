@@ -4,6 +4,3 @@ module.exports = {
   ROOT_API: '"http://api-davtalks-gitops.dav-poutine.ca/api/url/"',
   TITLE_APP: '"Davidson Prod"'
 }
-
-
-q
