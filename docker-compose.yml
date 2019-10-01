@@ -1,0 +1,11 @@
+version: '3'
+services:
+  front:
+    build: ../../../DavTalk files/front
+    image: davtalks-gitops-front:latest
+    container_name: davtalks-gitops-front
+    restart: always
+    ports:
+      - "8080:80"
+    expose:
+      - 80
