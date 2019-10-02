@@ -1,7 +1,7 @@
 version: '3'
 services:
   front:
-    build: ../../../DavTalk files/front
+    build: .
     image: davtalks-gitops-front:latest
     container_name: davtalks-gitops-front
     restart: always
